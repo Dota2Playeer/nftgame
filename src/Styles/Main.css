@@ -1,0 +1,374 @@
+
+.App{
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 10px 30px 30px;
+    box-sizing: border-box;
+}
+.Main_card{
+    display: flex;
+}
+.Card_1{
+    width: 60%;
+    border:1px black solid;
+    align-content: start;
+}
+.Card_2{
+    width: 45%;
+    border:1px black solid;
+    align-content: end;
+    align-items: end;
+}
+.Header{
+    margin-bottom:2px;
+}
+
+.Header_top{
+    display: flex;
+    margin-bottom:15px;
+}
+.lft_container{
+    width:50%;
+    height: auto;
+    display: block;
+    margin-right: 10px;
+}
+.right_container{
+    width:50%;
+    height: auto;
+    display: block;
+    margin-left: 15px;
+}
+.right_container_1{
+    width:50%;
+    height: auto;
+    display: block;
+    margin-right:10px;
+}
+.lft_container_1{
+    width:50%;
+    height: auto;
+    display: block;
+}
+.Element{
+    text-align: center;
+    background-color: rgb(35,31,32);
+    padding: 4px 8px 8px 4px;
+    color:azure;
+}
+.element1{
+    width: 40%;
+}
+.title1{
+    margin-left:30px;
+    font-family:Ebrima;
+    font-size:25px;
+    width: calc(100% - 30px);
+}
+.Body{
+    display:flex;
+    height: 805px;
+}
+.Body_top_content{
+    display: flex;
+    min-height: auto;
+    max-height: 350px;
+}
+.Container{
+    display:block;
+    margin-top:2px;
+    border: 1px black solid;
+    width:100%;
+    margin-right: 5px;
+    min-height: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.Inc_descrption{
+    width:100%;
+    box-sizing: border-box;
+}
+.fullsize{
+    width:100%;
+    border-bottom: 1px black solid;
+}
+.title4{
+    text-align: left;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 1px;
+}
+.Inc{
+    width: 30%;
+    text-decoration: underline black;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.str1 {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px black solid;
+    box-sizing: border-box;
+    height: 35px;
+}
+.str_header{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 35px;
+}
+.str1_2 {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+p{
+    margin: 0px;
+}
+.str3{
+
+    width: 100%;
+    border-bottom: 1px black solid;
+    height: 28px;
+
+}
+.str_sp1{
+    border-bottom: 1px black solid;
+    margin-top: 8px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+.Container_content{
+    display:flex;
+}
+
+.auditor_element{
+    width:50%;
+}
+.auditor_container{
+    position: relative;
+    width:100%;
+    height: calc(100% + 4px);
+    box-sizing: border-box;
+}
+.footer_top{
+    display: flex;
+    justify-content: start;
+    margin-left: 0px;
+    margin-top: 1%;
+}
+.title3{
+    text-align: center;
+    font-family:Ebrima;
+    font-size:25px;
+    width: 100%;
+}
+.sp_div1{
+    display: flex;
+    width:100%;
+}
+
+.assets_element{
+    width: 50%;
+}
+.passiv_element{
+    width: 50%;
+}
+.header_btm{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.inputs{
+    box-sizing: border-box;
+    width: calc(100%);
+    height: auto;
+    text-align: center;
+}
+.txtareas{
+    position: relative;
+    height: calc(60px);
+    width: calc(100%);
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+.txtareas_3{
+    position: relative;
+    margin-left: 10px;
+    height: 80px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+.auditor_content{
+    display: block;
+    margin-top: 2%;
+    width: 100%;
+    height: 420px;
+    box-sizing: border-box;
+}
+.halfsize{
+    height: 50%;
+}
+.vertical_auditor_container{
+    width: 100%;
+    height: calc(50% - 14px);
+    border-bottom: 1px solid black;
+}
+.vertical_auditor_container_2{
+    width: calc(100%);
+    height: calc(50% - 20px);
+    border-top: 1px solid black;
+}
+.margins_t{
+    margin-top: 10px;
+}
+.triple{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+
+}
+.borders{
+    border: 2px black solid;
+}
+.txtareas_1{
+    margin-right: 10px;
+    height: calc(100% - 30px);
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.element_20{
+    width: 100%;
+    justify-content: end;
+    box-sizing: border-box;
+}
+.txtareas_2{
+    margin-top: 19px;
+    margin-right: 10px;
+    height: 100%;
+    width: calc(50%);
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.grid_2{
+    box-sizing: border-box;
+    padding-bottom: -10px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.grid_header{
+    box-sizing: border-box;
+    height: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border-bottom: 1px black solid;
+}
+.title6{
+    margin-left: 60%;
+}
+.p2style{
+    position: relative;
+    transform: none;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+
+.inputs_2 {
+    transform: none;
+    vertical-align: middle;
+    height: 100%;
+    width: calc(100%);
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.inputs_2_1 {
+    transform: none;
+    margin-top: calc(30px);
+    margin-bottom: 2px;
+    height: 100%;
+    width: calc(100%);
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.grid_3{
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+.inputs_3{
+    box-sizing: border-box;
+    width: calc(100% - 15px);
+    height: auto;
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+.grid_4{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: auto;
+}
+
+.audtior_case{
+    height: 1000px;
+}
+.grid_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.grid_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.goal{
+    margin-left:1px;
+    margin-right:1px;
+}
+.all_expanses{
+    margin-right: 20px;
+    vertical-align: bottom;
+    font-size: 17px;
+}
+.all_expanses_input{
+    font-size: 17px;
+}
+.expanses_block{
+    margin-top: 20%;
+    justify-content: end;
+    display: flex;
+    width: 100%;
+}
+.income_block{
+    margin-top: 25%;
+    justify-content: end;
+    display: flex;
+    width: 100%;
+}
+.inc_blc_2{
+    display: flex;
+    border-bottom: 1px black solid;
+}
+.monthly_money
+{
+    margin-top: 5px;
+}
