@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import Cards from "./cards"
+import Cards from "./Blnk&Cards/Cards"
+import Userblank from "./Blnk&Cards/Userblank"
 import {useRef} from 'react';
 import Testing from "./Strs/Str1el"
 import Txtareas1 from './Strs/Textareas1';
 import Triple from './Strs/Triple';
-import UserBlank from './User_blank';
 
 const Index = function (){
     const [id, SetId] = useState(0)
@@ -13,7 +13,7 @@ const Index = function (){
     }
     let card = Cards()[id][1];
     let user_id = 0;
-    let UserData = UserBlank()[user_id][1];
+    let UserData = Userblank()[user_id][1];
     return (
         <div className="Card_1">
             <p className="Table-header">Basic Table</p>
