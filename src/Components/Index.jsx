@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
 import Cards from "./cards"
 import {useRef} from 'react';
-import Testing from "./Str1el"
-import Txtareas1 from './Textareas1';
-import Triple from './Triple';
-import Container from './Compressing';
+import Testing from "./Strs/Str1el"
+import Txtareas1 from './Strs/Textareas1';
+import Triple from './Strs/Triple';
 import UserBlank from './User_blank';
 
 const Index = function (){
@@ -15,7 +14,6 @@ const Index = function (){
     let card = Cards()[id][1];
     let user_id = 0;
     let UserData = UserBlank()[user_id][1];
-    
     return (
         <div className="Card_1">
             <p className="Table-header">Basic Table</p>
@@ -34,7 +32,7 @@ const Index = function (){
                             <div className="Element element1">
                                 Игрок
                             </div>
-                            <section className="str_header grid_center"><p className="inputs">{"3 "}</p></section>
+                            <section className="str_header grid_center"><p className="inputs">{UserData.Name}</p></section>
                         </div>
                     </div>
                 </div>
@@ -147,7 +145,7 @@ const Index = function (){
                                 
                             </div>
 
-                            <Triple title1={"Акции/взаимные фонды/:"} title2={"Депозиты Число акций:"} title3={"Цена/Сумма:"}/>
+                            <Triple title1={"Акции/взаимные ф../:"} title2={"Депозиты Число акций:"} title3={"Цена/Сумма:"}/>
                             <Triple title1={"Недвижимость:"} title2={"Первый Взнос:"} title3={"Цена:"}/>
                             <Triple title1={"Бизнес:"} title2={"Первый Взнос:"} title3={"Цена:"}/>
 

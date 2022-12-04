@@ -1,7 +1,7 @@
 import React from 'react';
-import Testing from "./Str1el"
-import Txtareas1 from './Textareas1';
-import Triple from './Triple';
+import Testing from "./Strs/Str1el"
+import Txtareas1 from './Strs/Textareas1';
+import Triple from './Strs/Triple';
 
 const Container = function(props)
 {

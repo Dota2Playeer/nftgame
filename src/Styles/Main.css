@@ -215,12 +215,12 @@ p{
 }
 .vertical_auditor_container{
     width: 100%;
-    height: calc(50% - 14px);
+    height: 49%;
     border-bottom: 1px solid black;
 }
 .vertical_auditor_container_2{
     width: calc(100%);
-    height: calc(50% - 20px);
+    height: calc(47%);
     border-top: 1px solid black;
 }
 .margins_t{
