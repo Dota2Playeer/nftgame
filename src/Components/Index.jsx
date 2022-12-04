@@ -61,8 +61,6 @@ const Index = function (){
                                 </div>
                             </div>
                         </div>
-
-
                         <div className="Container">
                             <div className="Container_content">
                                 <div className="Element auditor_element">Auditor</div>
