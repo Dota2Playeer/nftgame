@@ -14,13 +14,10 @@ const Index = function (){
     let card = Cards()[id][1];
     let user_id = 0;
     let UserData = Userblank()[user_id][1];
-    let Children_expanses1 = parseInt(Cards()[0][1].Per_children_expanses) * parseInt(Cards()[0][1].Children_count);
     let all_expanses = (parseInt(card.Mortage_payments_rent) + parseInt(card.School_loan_payment) 
     + parseInt(card.Car_load_payment) + parseInt(card.Credit_card_payment) + parseInt(card.Small_credit_payment)
     + parseInt(card.Other_expanses) + parseInt(card.Bank_loan_payment) + parseInt(card.Taxes)) + (parseInt(card.Per_children_expanses) * parseInt(card.Children_count));
-    ;
     let all_incomes = parseInt(card.Income) * parseInt(card.Percentage) + parseInt(card.Estate) + parseInt(card.Business);
-    console.log(Children_expanses1);
     return (
         <div className="Card_1">
             <div className="Header">
