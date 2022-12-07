@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Cards = function cards(){
+const Cards = function cards(props){
     let card = [
         ["Manager", {
             "Proffesion": 'Менеджер',
@@ -14,7 +14,7 @@ const Cards = function cards(){
             "Small_credit_payment": "50",
             "Other_expanses": '1000',
             "Bank_loan_payment": '0',
-            "Children_expanses": '0',
+            "Children_expanses": " ",
             "Per_children_expanses": '240',
             "Home_mortage": '31000',
             "School_loans": "12000",
@@ -23,6 +23,7 @@ const Cards = function cards(){
             "Small_credit": "50",
             "Mortage": "75000",
             "Saving": "400",
+            "Children_count": "2",
 
         }],
         ["Engineer", {
@@ -137,25 +138,31 @@ const Cards = function cards(){
         }],
         ["Nurse", {
             "Proffesion": 'Медсестра',
-            "Income": '3100',
+            "Income": "3100",
             "Taxes": '600',
-            "Mortage_payments_rent" : "600",
-            "Home_mortgage_payment": '300',
+            "Mortage_payments_rent" : '400',
+            // "Home_mortgage_payment": '30',
             "School_loan_payment": '30',
             "Car_load_payment": '100',
             "Credit_card_payment": '90',
-            "Small_credit_payment": "50",
+            "Small_credit_payment": '50',
             "Other_expanses": '710',
             "Bank_loan_payment": '0',
-            "Children_expanses": '250',
-            "Per_children_expanses": '240',
-            "Home_mortage": '31000',
-            "School_loans": "6000",
+            "Children_expanses": '0',
+            "Children_count": "0",
+            "Per_children_expanses": '170',
+            // "Home_mortage": '31000',
+            "School_loans": '6000',
             "Car_loans": '5000',
             "Credit_card_debt": '2000',
-            "Small_credit": "1000",
-            "Mortage": "47000",
-            "Saving": "480",
+            "Small_credit": '1000',
+            "Mortage": '47000',
+            "Saving": '480',
+            "Percentage": "1",
+            "Dividends": "0",
+            "Estate": "0",
+            "Business": "0",
+
         }],
         ["Truck_driver", {
             "Proffesion": 'Водитель грузовика',
